@@ -14,12 +14,37 @@ body{
     height: 100vh;
     object-fit:cover;
 }
+.card{
+    border-radius: 25px;
+}
+.hot-card-button{
+    background-color: #fff;
+    color: #1b41ff;
+    border-radius: 25px;
+}
+.hot-card{
+    transform: scale(1.1);
+}
 .custom-button{
     background-image: linear-gradient(#1b41ff, #0066ff);
     color: #ffffff;
+    border-radius: 25px;
 }
-
- 
+.card-title{
+    color: #231D4F;
+}
+.fa-check-circle{
+    color: #5243c2be;
+}
+.hot-check{
+    color: #a7a2e2d5;
+}
+.benefits span{
+    font-size: 15px;
+}
+.hot-card{
+    background-color: #3F87F5 ;
+}
 
 
 
