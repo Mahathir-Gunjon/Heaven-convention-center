@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA Convention Center</title>
+    <title>HEAVEN Convention Center</title>
     <!-- bootstrap CSS CDN link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!-- header start here -->
     <header>
-        <nav class="navbar navbar-expand-md bg-white normal-navi py-3 fixed-top">
+        <!-- this navbar is for large device  -->
+        <nav class="navbar navbar-expand-md bg-white normal-navi py-1 fixed-top">
             <div class="container">
-              <a class="navbar-brand w-25" href="#">NASA Convention</a>
+              <a class="navbar-brand w-25 fw-bold fs-2" href="#">HEAVEN <span class="text-dark fs-5 fw-normal">convention center</span></a>
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About us</a>
@@ -27,14 +26,18 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact us</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                  </li>
                 </ul>
               </div>
             </div>
           </nav>
+          <!-- this navbar is for small device  -->
           <!-- offcanvas nav  -->
           <nav class="navbar navbar-light bg-white fixed-top offcanvas-navi">
             <div class="container-fluid">
-              <a class="navbar-brand w-75" href="#">NASA Convention</a>
+                <a class="navbar-brand w-25 fw-bold fs-2 text-info" href="#">HEAVEN <span class="text-dark fs-5 fw-normal">convention center</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon">
                     <i class="fas fa-bars" style="color:black; font-size:28px; backgrond:none"></i>
@@ -50,44 +53,45 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                      </li>
-                      <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subscribe</a>
                       </li>
                   </ul>
                 </div>
               </div>
             </div>
           </nav>
-          <div class="comtainer-fluid bg-warning">
+          <!-- slider section start from here  -->
+          <div class="comtainer-fluid">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active position-relative ">
+                    <div class="carousel-item active position-relative">
                       <img src="./images/slider1.jpg" class="d-block w-100 img-fluid image-height" alt="...">
                       <div class="carousel-caption position-absolute top-50">
-                        <h1 class="display-3 text-capitalize fw-bold">Best envairoment for your event</h1>
-                            <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque minima est facere esse eligendi accusamus nulla neque similique natus culpa.</p>
-                            <a href="" class="btn btn-lg btn-warning">button vau</a>
+                        <h1 class="display-3 text-capitalize fw-bold">Best environment</h1>
+                            <p class="fs-5">We have the best environment with best services to make your any celebration memorable</p>
+                            <a href="" class="btn btn-lg custom-button">check now</a>
                       </div>
                     </div>
                     <div class="carousel-item position-relative ">
                         <img src="./images/slider2.jpg" class="d-block w-100 img-fluid image-height" alt="...">
                         <div class="carousel-caption position-absolute top-50">
-                          <h1 class="display-3 text-capitalize">Best catering service for your Guests</h1>
-                              <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque minima est facere esse eligendi accusamus nulla neque similique natus culpa.</p>
-                              <a href="" class="btn btn-lg btn-warning">button vau</a>
+                            <h1 class="display-3 text-capitalize fw-bold">Best catering service</h1>
+                            <p class="fs-5">Best catering service for your funtion to make your guests feel free to eat and take rest</p>
+                            <a href="" class="btn btn-lg custom-button">check now</a>
                         </div>
                       </div>
                     <div class="carousel-item position-relative ">
                       <img src="./images/slider3.jpg" class="d-block w-100 img-fluid image-height" alt="...">
                       <div class="carousel-caption position-absolute top-50">
-                        <h1 class="display-3 text-capitalize fw-">Best envairoment for enjoy event</h1>
-                            <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque minima est facere esse eligendi accusamus nulla neque similique natus culpa.</p>
-                            <a href="" class="btn btn-lg btn-warning">button vau</a>
+                        <h1 class="display-3 text-capitalize fw-bold">separated places</h1>
+                            <p class="fs-5">We have the best environment to emjoy every part of celebration and feel the funtion as you want</p>
+                            <a href="" class="btn btn-lg custom-button">check now</a>
                       </div>
                     </div>
                   </div>
@@ -102,6 +106,15 @@
               </div>
           </div>
     </header>
+    <!-- header end here  -->
+    <!-- main section start from here  -->
+    <main>
+        <!-- price option sesction start from here  -->
+        <section class="pricing-section">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit eius ipsam nulla recusandae ratione architecto quae quisquam rem nesciunt.</h1>
+
+        </section>
+    </main>
     <br>
     <br>
     <br>
