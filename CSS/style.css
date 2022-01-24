@@ -66,6 +66,10 @@ body{
 .toast:not(.show) {
     display: block;
   }
+  /* footer style  */
+  footer{
+      height: 30vh;
+  }
 /* media query for style navbar for normal navbar in large device and offcanvas navbar for small devicer  */
 @media screen  and (min-width:768px){
     .offcanvas-navi{
