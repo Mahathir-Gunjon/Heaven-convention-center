@@ -21,6 +21,21 @@ body{
 .card{
     border-radius: 25px;
 }
+.card:hover{
+    color: #ffffff;
+    background-color: #3F87F5;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+.card:hover h3{
+    color: #ffffff;
+}
+.card:hover .fa-check-circle{
+    color: #ffffff;
+}
+.fa-check-circle{
+    color: #3F87F5;
+}
 .card-button{
     background-color: #ebebeb;
     color: #3F87F5;
@@ -34,33 +49,11 @@ body{
 .card-title{
     color: #231D4F;
 }
-.fa-check-circle{
-    color: #3F87F5;
-}
 .fa-plus-circle{
     color: #3F87F5;
 }
 .benefits span{
     font-size: 15px;
-}
-.hot-card{
-    background-color: #3F87F5 ;
-}
-.hot-check{
-    color: #b8c5ffd5;
-}
-.hot-card{
-    transform: scale(1.1);
-    color: #e9e9e9;
-}
-.hot-card h3{
-    color: #e9e9e9;
-}
-.hot-card-button{
-    background-color: #ececec;
-    color: #3F87F5;
-    border-radius: 25px;
-    font-weight: 500;
 }
 .faq{
     background-color: #3f88f50c;
