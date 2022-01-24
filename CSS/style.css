@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* navbar style  */
 .navbar-brand{
     color: #3F87F5;
 }
@@ -14,10 +15,12 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
+/* slider image  */
 .image-height{
     height: 100vh;
     object-fit:cover;
 }
+/* price cards style  */
 .price-card{
     border-radius: 25px;
 }
@@ -55,18 +58,14 @@ body{
 .benefits span{
     font-size: 15px;
 }
+/* faq styles  */
 .faq{
     background-color: #3f88f50c;
 }
+/* toast style  */
 .toast:not(.show) {
     display: block;
   }
-
-
-
-
-
-
 /* media query for style navbar for normal navbar in large device and offcanvas navbar for small devicer  */
 @media screen  and (min-width:768px){
     .offcanvas-navi{
