@@ -18,19 +18,19 @@ body{
     height: 100vh;
     object-fit:cover;
 }
-.card{
+.price-card{
     border-radius: 25px;
 }
-.card:hover{
+.price-card:hover{
     color: #ffffff;
     background-color: #3F87F5;
     transition: .3s ease-in-out;
     transform: scale(1.1);
 }
-.card:hover h3{
+.price-card:hover h3{
     color: #ffffff;
 }
-.card:hover .fa-check-circle{
+.price-card:hover .fa-check-circle{
     color: #ffffff;
 }
 .fa-check-circle{
@@ -58,6 +58,9 @@ body{
 .faq{
     background-color: #3f88f50c;
 }
+.toast:not(.show) {
+    display: block;
+  }
 
 
 
