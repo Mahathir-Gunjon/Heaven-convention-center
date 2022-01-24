@@ -3,7 +3,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .navbar-brand{
-    color: #1b41ff;
+    color: #3F87F5;
+}
+.navbar-brand span{
+    border-bottom: 1px solid #3F87F5;
+    line-height: .4;
 }
 .nav-link{
     color: #141414;
@@ -17,27 +21,24 @@ body{
 .card{
     border-radius: 25px;
 }
-.hot-card-button{
-    background-color: #fff;
-    color: #1b41ff;
+.card-button{
+    background-color: #ebebeb;
+    color: #3F87F5;
     border-radius: 25px;
-}
-.hot-card{
-    transform: scale(1.1);
+    font-weight: 500;
 }
 .custom-button{
-    background-image: linear-gradient(#1b41ff, #0066ff);
+    background-color: #3F87F5;
     color: #ffffff;
-    border-radius: 25px;
 }
 .card-title{
     color: #231D4F;
 }
 .fa-check-circle{
-    color: #5243c2be;
+    color: #3F87F5;
 }
-.hot-check{
-    color: #a7a2e2d5;
+.fa-plus-circle{
+    color: #3F87F5;
 }
 .benefits span{
     font-size: 15px;
@@ -45,9 +46,25 @@ body{
 .hot-card{
     background-color: #3F87F5 ;
 }
-
-
-
+.hot-check{
+    color: #b8c5ffd5;
+}
+.hot-card{
+    transform: scale(1.1);
+    color: #e9e9e9;
+}
+.hot-card h3{
+    color: #e9e9e9;
+}
+.hot-card-button{
+    background-color: #ececec;
+    color: #3F87F5;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.faq{
+    background-color: #3f88f50c;
+}
 
 
 
